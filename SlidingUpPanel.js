@@ -306,11 +306,11 @@ class SlidingUpPanel extends React.PureComponent {
 
     this._storeKeyboardPosition(event.endCoordinates.screenY)
 
-    const node = TextInput.State.currentlyFocusedField()
+//     const node = TextInput.State.currentlyFocusedField()
 
-    if (node != null) {
-      this.scrollIntoView(node)
-    }
+//     if (node != null) {
+//       this.scrollIntoView(node)
+//     }
   }
 
   _onKeyboardHiden() {
